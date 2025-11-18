@@ -6,12 +6,9 @@ public class Main {
         Item chocolate = new Item(9.90, "Yishay's milk", 1);
         Item temu = new Computer(4555, "digger bigger", 1, 500);
 
-
         shop.addItem(milk);
         shop.addItem(eggs);
         shop.addItem(chocolate);
         shop.addItem(temu);
-
-
     }
 }
